@@ -1,0 +1,33 @@
+/* src/components/ChatList.css */
+.chatlist__item {
+  transition: transform 0.3s;
+}
+.custom-scrollbar::-webkit-scrollbar {
+  width: 5px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.2);
+}
+.chat__item {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: flex-end;
+}
+.chat__item .chat__item__content {
+  max-width: 80%;
+  background-color: #f1f0f0;
+  border-radius: 10px;
+  padding: 10px 20px;
+  position: relative;
+}
+.chat__item.other .chat__item__content {
+  background-color: #e1f5fe;
+}
+.chat__msg {
+  margin: 0;
+  color: #333;
+  font-size: 14px;
+}

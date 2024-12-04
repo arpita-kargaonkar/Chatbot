@@ -1,0 +1,26 @@
+.main__chatbody {
+  flex-grow: 1;
+  background-color: #fff;
+  /* padding: 15px 20px; */
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  width: 10px; /* Width of the scrollbar */
+}
+
+.scrollbar-hide::-webkit-scrollbar-track {
+  background: #f0f0f0; /* Light color for the scrollbar track */
+  border-radius: 8px; /* Rounded corners for the scrollbar track */
+}
+
+.scrollbar-hide::-webkit-scrollbar-thumb {
+  background: #c9c9c9; /* Light color for the scrollbar thumb */
+  border-radius: 8px; /* Rounded corners for the scrollbar thumb */
+}
+
+/* Optional: Hover style for the scrollbar thumb */
+.scrollbar-hide::-webkit-scrollbar-thumb:hover {
+  background: #a0a0a0; /* Darker color on hover */
+}
